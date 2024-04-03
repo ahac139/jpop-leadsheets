@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+* {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.heading {
+
+  font: bold 40px 'Calibri';
+
+  color: black;
+
+  letter-spacing: 3px;
+
+  text-align: center;
+
+}
+
+.content-sidebar {
+  width: 250px;
+  height:350px;
+  margin: 5px;
+
+  display:flex;
+  flex-direction: column;
+
+  font-size: 10px;
+  text-align: Left;
+  border-radius:10px;
+  gap:0px;
+
+  overflow-y: auto;
+}   
+
